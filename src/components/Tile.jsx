@@ -1,6 +1,6 @@
-function Tile(){
+function Tile({ className }){
     return(
-        <div>X</div>
+        <div className={`tile ${className}`}>X</div>
     );
 }
 
